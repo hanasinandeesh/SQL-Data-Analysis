@@ -3,9 +3,11 @@ SELECT COUNT(*) AS Total_Records FROM car_sales;
 
 -- Calculate the total and average MSRP (price) from the car_sales dataset
 SELECT 
-    SUM(MSRP) AS Total_MSRP, 
-    AVG(MSRP) AS Average_MSRP 
+    COUNT(*) AS Total_Records, 
+    SUM(`Price in thousands`) AS Total_Price,
+    AVG(`Price in thousands`) AS Average_Price 
 FROM car_sales;
+
 
 -- Filter records where Engine_HP is greater than 300
 SELECT * 
