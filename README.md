@@ -6,7 +6,7 @@ This project demonstrates how to perform basic data analysis on a local SQLite d
 
 The goal of this project is to show how SQL can be used to gain insights from raw data, including counting records, calculating averages, filtering based on specific criteria, and more. 
 
-###Dataset used is : 
+### Dataset used is : 
 https://github.com/chandanverma07/DataSets/blob/master/Car_sales.csv
 
 
