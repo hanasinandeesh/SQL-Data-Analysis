@@ -29,8 +29,7 @@ This query counts the total number of records in the `car_sales` dataset.
 
 SELECT COUNT(*) AS Total_Records FROM car_sales;
 
-<img width="624" alt="Screenshot 2024-12-07 225042" src="https://github.com/user-attachments/assets/262b71e2-c8ca-4f79-9578-26b06e0e8723">
-
+<img width="734" alt="Screenshot 2024-12-07 233400" src="https://github.com/user-attachments/assets/19936c7c-8989-4f9e-aa0a-f3438c073f54">
 
 
 ### 2. Calculate the Total and Average MSRP (Price) from the car_sales Dataset
@@ -38,23 +37,22 @@ SELECT COUNT(*) AS Total_Records FROM car_sales;
 This query calculates both the sum and the average of the MSRP column (Manufacturer's Suggested Retail Price) from the car_sales dataset.
 
 SELECT 
-    SUM(MSRP) AS Total_MSRP, 
-    AVG(MSRP) AS Average_MSRP 
+    COUNT(*) AS Total_Records, 
+    SUM(`Price in thousands`) AS Total_Price,
+    AVG(`Price in thousands`) AS Average_Price 
 FROM car_sales;
 
-
-<img width="627" alt="Screenshot 2024-12-07 225124" src="https://github.com/user-attachments/assets/bd57bb20-50ca-4676-8060-ee884d3fcb23">
+<img width="626" alt="Screenshot 2024-12-07 234344" src="https://github.com/user-attachments/assets/3dc33110-ef62-4ecb-993a-a0723ab5aecd">
 
 
 ### 3. Filter Records Where Engine_HP is Greater Than 300
 
 This query filters the records where the Engine_HP (engine horsepower) is greater than 300.
 
-SELECT * 
-FROM car_sales 
-WHERE Engine_HP > 300;
+SELECT * FROM car_sales WHERE Horsepower > 300;
 
-<img width="736" alt="Screenshot 2024-12-07 225240" src="https://github.com/user-attachments/assets/81569d7a-3466-40ac-8cc4-a734335caedb">
+<img width="628" alt="Screenshot 2024-12-07 234501" src="https://github.com/user-attachments/assets/6a74fdd0-3650-455d-b520-5c84e1d8a997">
+
 
 
 ## Prerequisites
