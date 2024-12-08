@@ -53,9 +53,9 @@ SELECT
 FROM car_sales;
 
 Result: This query returns:
--**The total number of records in the dataset.**
--**The total price of all cars combined.**
--**The average price per car.**
+-The total number of records in the dataset.
+-The total price of all cars combined.
+-The average price per car.
 
 <img width="626" alt="Screenshot 2024-12-07 234344" src="https://github.com/user-attachments/assets/3dc33110-ef62-4ecb-993a-a0723ab5aecd">
 
