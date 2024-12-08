@@ -74,8 +74,6 @@ Result: This query returns the full records of cars with horsepower greater than
 
 ### Prerequisites
 
-Before you begin, ensure that you have the following tools installed:
-
 - **Python**: To run the Python script and manage dependencies.
 - **SQLite3**: To manage the SQLite database.
 - **VS Code** : To edit the scripts and view the results.
