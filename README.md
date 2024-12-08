@@ -65,6 +65,7 @@ Result: This query returns:
 This query filters the records where the Engine_HP (engine horsepower) is greater than 300.
 
 SELECT * FROM car_sales WHERE Horsepower > 300;
+
 Result: This query returns the full records of cars with horsepower greater than 300, which could indicate sports cars or high-performance models.
 
 <img width="628" alt="Screenshot 2024-12-07 234501" src="https://github.com/user-attachments/assets/6a74fdd0-3650-455d-b520-5c84e1d8a997">
