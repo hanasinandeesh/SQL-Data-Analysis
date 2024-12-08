@@ -35,8 +35,6 @@ This dataset can be used to perform various types of analyses, including pricing
 
 This query calculates the total number of records in the dataset to get an idea of its size. It is useful when starting any data analysis project to know how much data you are working with.
 
-**SQL Query**:
-```sql
 SELECT COUNT(*) AS Total_Records FROM car_sales;
 
 Result: The query returns the total number of records in the dataset.
